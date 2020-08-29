@@ -3,7 +3,10 @@
     "",
     "\\public",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\components\\Images",
+    "\\src\\components\\Images\\RCK"
   ],
+  "SelectedNode": "\\src\\components\\Work.js",
   "PreviewInSolutionExplorer": false
 }

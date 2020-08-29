@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./components/scrollToTop.js";
+
+//Pages
+import App from './App';
+import RckPage from "./components/rck.js"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
+    <React.StrictMode>
+        <BrowserRouter>
+            <Switch>
+                <ScrollToTop>
+                    <Route exact path="/" component={App} />
+                        <Route path="/RCK" component={RckPage} />
+                </ScrollToTop>
+            </Switch>
+        </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap'
+import { Card, Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 class CardComponent extends React.Component {
     constructor(props) {
@@ -32,7 +33,7 @@ class CardComponent extends React.Component {
                         <Card.Text >
                             {this.props.text}
                         </Card.Text>
-                        <Button variant="primary">Learn More</Button>
+                        <Link to={this.props.pageLink}><Button variant="primary">Learn More</Button></Link>
                     </Card.Body>
                 </Card>
             </div>
