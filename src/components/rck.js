@@ -8,10 +8,6 @@ import { Container, Carousel } from 'react-bootstrap'
 
 
 class RckPage extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>

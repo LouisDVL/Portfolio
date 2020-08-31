@@ -1,7 +1,6 @@
 import React from 'react';
 import CardComponent from './cardComponent';
 import RCKImage from './Images/RCK/shop.PNG';
-import holderImage from './Images/holder.svg'
 import { Row, Col } from 'react-bootstrap';
 
 /*Card Component takes in
