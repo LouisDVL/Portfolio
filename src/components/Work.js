@@ -4,6 +4,13 @@ import RCKImage from './Images/RCK/shop.PNG';
 import holderImage from './Images/holder.svg'
 import { Row, Col } from 'react-bootstrap';
 
+/*Card Component takes in
+ * url for the image
+ * title for the project
+ * text that will be displayed can take in JSX
+ * page link will be for where the description
+ */
+
 class Work extends React.Component {
     render() {
         return (
@@ -23,48 +30,6 @@ class Work extends React.Component {
                             </div>
                             }
                             pageLink="/RCK"
-                        />
-                    </Col>
-
-                    <Col>
-                <CardComponent
-                    url={holderImage}
-                    title="Card Title"
-                    text="Some quick example text to build on the card title and make up the bulk of
-      the card's content."
-                        />
-                    </Col>
-
-                    <Col>
-                        <CardComponent
-                            url={holderImage}
-                            title="Card Title"
-                            text="Some quick example text to build on the card title and make up the bulk of
-      the card's content."
-                        />
-                    </Col>
-                    <Col>
-                        <CardComponent
-                            url={holderImage}
-                            title="Card Title"
-                            text="Some quick example text to build on the card title and make up the bulk of
-      the card's content."
-                        />
-                    </Col>
-                    <Col>
-                        <CardComponent
-                            url={holderImage}
-                            title="Card Title"
-                            text="Some quick example text to build on the card title and make up the bulk of
-      the card's content."
-                        />
-                    </Col>
-                    <Col>
-                        <CardComponent
-                            url={holderImage}
-                            title="Card Title"
-                            text="Some quick example text to build on the card title and make up the bulk of
-      the card's content."
                         />
                     </Col>
                 </Row>
