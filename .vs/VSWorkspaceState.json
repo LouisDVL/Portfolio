@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\public",
-    "\\src",
-    "\\src\\components",
-    "\\src\\components\\Images",
-    "\\src\\components\\Images\\RCK"
+    ""
   ],
-  "SelectedNode": "\\src\\components\\Work.js",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
