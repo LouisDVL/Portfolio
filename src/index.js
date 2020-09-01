@@ -11,7 +11,7 @@ import RckPage from "./components/rck.js"
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/Portfolio">
             <Switch>
                 <ScrollToTop>
                     <Route exact path="/" component={App} />
