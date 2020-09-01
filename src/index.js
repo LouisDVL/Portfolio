@@ -11,11 +11,11 @@ import RckPage from "./components/rck.js"
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter basename="/Portfolio">
+        <BrowserRouter>
             <Switch>
                 <ScrollToTop>
                     <Route exact path="/" component={App} />
-                        <Route path="/RCK" component={RckPage} />
+                    <Route path="/RCK" component={RckPage} />
                 </ScrollToTop>
             </Switch>
         </BrowserRouter>
