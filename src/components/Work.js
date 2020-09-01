@@ -28,7 +28,7 @@ class Work extends React.Component {
                                 </ul>
                             </div>
                             }
-                            pageLink="/RCK"
+                            pageLink={process.env.PUBLIC_URL + '/RCK'}
                         />
                     </Col>
                 </Row>
