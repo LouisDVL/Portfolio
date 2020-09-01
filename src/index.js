@@ -14,8 +14,8 @@ ReactDOM.render(
         <BrowserRouter>
             <Switch>
                 <ScrollToTop>
-                    <Route path="*" component={App} />
-                    <Route path="/RCK" component={RckPage} />
+                    <Route path={process.env.PUBLIC_URL + '/'} component={App} />
+                    <Route path={process.env.PUBLIC_URL + '/RCK'} component={RckPage} />
                 </ScrollToTop>
             </Switch>
         </BrowserRouter>
