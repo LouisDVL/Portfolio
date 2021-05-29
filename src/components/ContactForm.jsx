@@ -28,7 +28,6 @@ export default function ContactForm() {
   async function send() {
     setSendingProgress(true);
     let payload = { message, userEmail };
-    console.log(payload);
     let resp = await sendMessage(payload);
     if (resp === true) {
       toast.success("Message Sent", { position: "top-right" });

@@ -5,17 +5,19 @@ export async function sendMessage(payload) {
   //   timeout(
   //     5000,
   let responseStatus;
-  console.log(payload);
+  let message = JSON.stringify(payload);
+  console.log(message);
   await axios
     .post("https://louislisingnodemail.azurewebsites.net/contact", {
-      payload,
+      message,
     })
     //   )
     .then((response) => {
       responseStatus = response.status;
     })
     .catch((error) => {
-      throw error;
+      responseStatus = 400;
+      console.log(error);
     });
 
   if (responseStatus === 200) {
