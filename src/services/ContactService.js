@@ -1,13 +1,13 @@
 const axios = require("axios");
 
-export async function sendMessage(message) {
+export async function sendMessage(payload) {
   //turn on timeout when u get famous and people want to contact you.
   //   timeout(
   //     5000,
   let responseStatus;
   await axios
     .post("https://louislisingnodemail.azurewebsites.net/contact", {
-      message,
+      payload,
     })
     //   )
     .then((response) => {

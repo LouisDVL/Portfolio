@@ -33,6 +33,8 @@ export default function ContactForm() {
     } else {
       toast.error("Message did not send", { position: "top-right" });
     }
+    setEmail("");
+    setMessage("");
     setSendingProgress(false);
   }
 
