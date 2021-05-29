@@ -5,6 +5,7 @@ export async function sendMessage(payload) {
   //   timeout(
   //     5000,
   let responseStatus;
+  console.log(payload);
   await axios
     .post("https://louislisingnodemail.azurewebsites.net/contact", {
       payload,
