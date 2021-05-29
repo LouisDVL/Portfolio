@@ -38,34 +38,35 @@
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #root {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .particleHeader {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .headerBack {
-    position: absolute;
-    background-image: url("https://wp.technologyreview.com/wp-content/uploads/2019/05/hubble-telescope-nasa-10.jpg");
-    z-index: -1;
-    height: 100vh;
-    width: 100vw;
+  position: absolute;
+  background-image: url("https://wp.technologyreview.com/wp-content/uploads/2019/05/hubble-telescope-nasa-10.jpg");
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
 }
 
 .headerText {
-    color: white;
-    text-align: center;
-    font-size: 18px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
 }
 
-h1, h4 {
-    text-decoration: underline;
+h1,
+h4 {
+  text-decoration: underline;
 }
