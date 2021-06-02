@@ -5,12 +5,9 @@ export async function sendMessage(payload) {
   //   timeout(
   //     5000,
   let responseStatus;
-  let message = JSON.stringify(payload);
-  console.log(message);
+  console.log(payload);
   await axios
-    .post("https://louislisingnodemail.azurewebsites.net/contact", {
-      message,
-    })
+    .post("https://louislisingnodemail.azurewebsites.net/contact", payload)
     //   )
     .then((response) => {
       responseStatus = response.status;
